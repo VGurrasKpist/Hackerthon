@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Ahl</title>
+ 
+ <style>
+        .active{
+            background-color: red;
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+h1 {text-align: center;}
+p  {text-align: center;}
+div {text-align: center;}
+body {
+  background-image: url('image/background.jpg');
+}
+
+div.knapp {text-align: center;}
+
+
+    </style>
+
+ <ul>
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="Carl.html">Carl</a></li>
+        <li><a href="markus_johansson.html">Markus</a></li>
+        <li><a href="Johanna_Carlström.html">Johanna</a></li>
+        <li><a class="active" href="Martin_Ahl.html">Martin</a></li>
+      </ul>
+        
+
+</head>
+<body>
+<br>
+<br>
+<br>
+    <div>
+        <h1>Martin Ahl</h1>
+        <img src="image/sample.png" width="200"> 
+        <br>    
+<br>
+<br>
+<div class="Min-lista">
+  <h2> Vad jag är bra på</h2>
+    <p>Data spel</p>
+    <p>Sova</p>
+    <p>Bakning</p>
+    <p>Lyssna</p>
+</div>
+<br>
+<!-- knapp med länk till github, target är så att sidan öppnas i -->
+<div class="knapp">
+  <a href="https://github.com/Lillebrorftw" target="_blank"><img src="image/Git.png" alt="Github" style="width:42px;height:42px;"></a>
+</div>
+<br>
+
+</body>
+</html>
