@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markus Johansson</title>
+    <style>
+        body {
+            height: 600px;
+            background-image: linear-gradient(to bottom, rgba(51,51,51,0.3), rgb(255, 255, 255, 0.5));
+            background-repeat: no-repeat;
+        }
+
+        .active{
+            background-color: red;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+        li a:hover:not(.active) {
+             background-color: #111;
+            }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1, h2{
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .list {
+            float: none;
+        }
+
+        div.listcontainer {
+            text-align: center;
+        }
+
+        ol.centeredlist {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .start a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            padding: 0px 5px;
+        }
+
+        .start a:hover {
+            color: red;
+        }
+
+        div.git {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Main</a></li>
+        <li><a href="Carl.html">Carl</a></li>
+        <li><a class="active" href="markus_johansson.html">Markus</a></li>
+        <li><a href="Johanna_Carlström.html">Johanna</a></li>
+        <li><a href="Martin_Ahl.html">Martin</a></li>
+    </ul>
+    <br>
+    <h1 style="float: center;">Markus Johansson</h1>
+    <img src="janedoe.jpg" style="border-radius: 50%;" width="150" height="150" alt="maakusj GitHub Profile">
+
+    <h2>Enligt utsago är jag en jäkel på...</h2>
+    <div class="listcontainer">
+        <ol class="centeredlist">
+            <li class="list">...att spela luftgitarr</li>
+            <li class="list">...crowdsurfa</li>
+            <li class="list">...glömma bort namn</li>
+            <li class="list">...dricka fesljummen IPA</li>
+        </ol>       
+    <p>
+    <div class="start">
+    <!-- Kika gärna in på min <a href="https://github.com/maakusj">GitHub</a> profil
+    <br> -->
+    <i><span style="border: 1px dotted black"><a href="index.html ">Tillbaka till Main</a></span></i>
+    </p>
+    </div>
+    <div class="git">
+        <a href="https://github.com/maakusj">
+        <img src="githublogo.png" width="50" height="50" alt="Markus Johansson GitHub Profil">
+        </a>
+    </div>
+</body>
+</html>
