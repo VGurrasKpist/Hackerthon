@@ -4,43 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin Ahl</title>
-    <style>
-        
-    .content {
-        max-width: 300px;
-        margin:auto;
-    }
+ 
+ <style>
+        .active{
+            background-color: red;
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+h1 {text-align: center;}
+p  {text-align: center;}
+div {text-align: center;}
+
+div.knapp {text-align: center;}
 
     </style>
 
+ <ul>
+        <li><a href="Index.html">Hem</a></li>
+        <li><a href="Carl.html">Carl</a></li>
+        <li><a href="markus_johansson.html">Markus</a></li>
+        <li><a href="Johanna_Carlström.html">Johanna</a></li>
+        <li><a class="active" href="Martin_Ahl.html">Martin</a></li>
+      </ul>
+        
+
 </head>
 <body>
-    <div class="content">
+<br>
+<br>
+<br>
+    <div>
         <h1>Martin Ahl</h1>
-        <p> Hej hej</p>
         <img src="image/sample.png" width="200"> 
         <br>    
 <br>
-
 <br>
-<ul>
-    <li>List 1</li>
-    <li>List 2</li>
-    <li>List 3</li>
-    <li>List 4</li>
-</ul>
-<br>
-<div>
-    <a href="https://github.com/Lillebrorftw">Github</a>
+<div class="Min-lista">
+  <h2> Vad jag är bra på</h2>
+    <p>Data spel</p>
+    <p>Sova</p>
+    <p>Bakning</p>
+    <p>List 4</p>
 </div>
 <br>
-<div>
-    <a href="Index.html">Main</a>
+<!-- knapp med länk till github, target är så att sidan öppnas i -->
+<div class="knapp">
+    <button><a href="https://github.com/Lillebrorftw" target="_blank">Github</a></button>
 </div>
-
-
-    </div>
-    
+<br>
 
 </body>
 </html>
